@@ -29,7 +29,7 @@ const Contact = () => {
       `Message: ${formData.message}`;
 
     window.open(
-      `https://wa.me/9313121058?text=${whatsappMessage}`,
+      `https://wa.me/1234567890?text=${whatsappMessage}`, // Replace with your WhatsApp number
       "_blank"
     );
 
